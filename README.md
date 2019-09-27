@@ -1,6 +1,6 @@
 Android Sunflower Java(alpha)
 =========================
-[![CircleCI](https://circleci.com/gh/googlesamples/android-sunflower/tree/master.svg?style=shield)](https://circleci.com/gh/googlesamples/android-sunflower/tree/master)
+[![CircleCI](https://circleci.com/gh/android/sunflower/tree/master.svg?style=shield)](https://circleci.com/gh/android/sunflower/tree/master)
 
 
 
@@ -23,9 +23,7 @@ Android Sunflower Java(alpha)
 
 A gardening app illustrating Android development best practices with Android Jetpack.
 
-Android Sunflower is currently released as an alpha and is under heavy development. To view the
-latest changes, please visit the
-[Releases page](https://github.com/googlesamples/android-sunflower/releases).
+Android Sunflower is currently under heavy development.
 Note that some changes (such as database schema modifications) are not backwards
 compatible during this alpha period and may cause the app to crash. In this
 case, please uninstall and re-install the app.
@@ -88,7 +86,7 @@ Libraries Used
 * Third party
   * [Glide][90] for image loading
 
-[0]: https://developer.android.com/jetpack/foundation/
+[0]: https://developer.android.com/jetpack/components
 [1]: https://developer.android.com/topic/libraries/support-library/packages#v7-appcompat
 [2]: https://developer.android.com/kotlin/ktx
 [4]: https://developer.android.com/training/testing/
@@ -100,7 +98,7 @@ Libraries Used
 [16]: https://developer.android.com/topic/libraries/architecture/room
 [17]: https://developer.android.com/topic/libraries/architecture/viewmodel
 [18]: https://developer.android.com/topic/libraries/architecture/workmanager
-[30]: https://developer.android.com/jetpack/ui/
+[30]: https://developer.android.com/guide/topics/ui
 [31]: https://developer.android.com/training/animation/
 [34]: https://developer.android.com/guide/components/fragments
 [35]: https://developer.android.com/guide/topics/ui/declaring-layout
@@ -113,20 +111,20 @@ Updates will include incorporating additional Jetpack components and updating ex
 as the component libraries evolve.
 
 Interested in seeing a particular feature of the Android Framework or Jetpack implemented in this
-app? Please open a new [issue](https://github.com/googlesamples/android-sunflower/issues).
+app? Please open a new [issue](https://github.com/android/sunflower/issues).
 
 Android Studio IDE setup
 ------------------------
-For development, the latest version of Android Studio 3.3 is required. The latest version can be
+For development, the latest version of Android Studio is required. The latest version can be
 downloaded from [here](https://developer.android.com/studio/).
 
 Additional resources
 --------------------
 Check out these Wiki pages to learn more about Android Sunflower:
 
-- [Notable Community Contributions](https://github.com/googlesamples/android-sunflower/wiki/Notable-Community-Contributions)
+- [Notable Community Contributions](https://github.com/android/sunflower/wiki/Notable-Community-Contributions)
 
-- [Publications](https://github.com/googlesamples/android-sunflower/wiki/Sunflower-Publications)
+- [Publications](https://github.com/android/sunflower/wiki/Sunflower-Publications)
 
 Non-Goals
 ---------
@@ -142,13 +140,12 @@ injection to better understand Sunflower's code without having to learn DI.
 Support
 -------
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
 - Stack Overflow:
   - http://stackoverflow.com/questions/tagged/android
   - http://stackoverflow.com/questions/tagged/android-jetpack
 
 If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-sunflower/issues
+https://github.com/android/sunflower/issues
 
 Patches are encouraged, and may be submitted by forking this project and submitting a pull request
 through GitHub.
@@ -156,6 +153,8 @@ through GitHub.
 Third Party Content
 -------------------
 Select text used for describing the plants (in `plants.json`) are used from Wikipedia via CC BY-SA 3.0 US (license in `ASSETS_LICENSE`).
+
+"[seed](https://thenounproject.com/search/?q=seed&i=1585971)" by [Aisyah](https://thenounproject.com/aisyahalmasyira/) is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode)
 
 License
 -------
