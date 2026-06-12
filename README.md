@@ -14,7 +14,7 @@ Android Sunflower Java(alpha)
 >
 >
 >
->The the Intention to create [**Android Sunflower Java**](https://github.com/hatewx/android-sunflower-java):
+>The intentions to create [**Android Sunflower Java**](https://github.com/hatewx/android-sunflower-java):
 >
 >+ Many people may find it difficult to learn [Android Jetpack](https://developer.android.com/jetpack/) because they are not familiar with Kotlin.
 >+ Many teams are keen to implement [Android Jetpack](https://developer.android.com/jetpack/) in existing projects, but still prefer to use the java language to approach.

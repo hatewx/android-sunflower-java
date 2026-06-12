@@ -52,7 +52,7 @@ public class PlantDetailViewModelTest {
 
         PlantRepository plantRepo = PlantRepository.getInstance(appDatabase.getPlantDao());
         GardenPlantingRepository gardenPlantingRepo = GardenPlantingRepository.getInstance(
-                appDatabase.getGardenPlatingDao());
+                appDatabase.getGardenPlantingDao());
         viewModel = new PlantDetailViewModel(plantRepo, gardenPlantingRepo, testPlant.getPlantId());
     }
 

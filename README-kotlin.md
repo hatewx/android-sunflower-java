@@ -15,12 +15,10 @@ Android Sunflower Java(alpha)
 >
 > The the Intention to create [**Android Sunflower Java**](https://github.com/hatewx/android-sunflower-java):
 >
-> - Many people may find it difficult to learn [Android Jetpack](https://developer.android.com/jetpack/) because they are not familiar with Kotlin.
-> - Many teams are keen to implement [Android Jetpack](https://developer.android.com/jetpack/) in existing projects, but still prefer to use the java language to approach.
+>+ Many people may find it difficult to learn [Android Jetpack](https://developer.android.com/jetpack/) because they are not familiar with Kotlin.
+>+ Many teams are keen to implement [Android Jetpack](https://developer.android.com/jetpack/) in existing projects, but still prefer to use the java language to approach.
 
 
-
-This project forked from [googlesamples/android-sunflower](https://github.com/googlesamples/android-sunflower) . I translated all **kotlin** file to **java**, and 
 
 A gardening app illustrating Android development best practices with Android Jetpack.
 
@@ -67,10 +65,9 @@ Screenshots
 
 Libraries Used
 --------------
-* [Foundation][0] - Components for core system capabilities, Kotlin extensions and support for
+* [Foundation][0] - Components for core system capabilities and support for
   multidex and automated testing.
   * [AppCompat][1] - Degrade gracefully on older versions of Android.
-  * [Android KTX][2] - Write more concise, idiomatic Kotlin code.
   * [Test][4] - An Android testing framework for unit and runtime UI tests.
 * [Architecture][10] - A collection of libraries that help you design robust, testable, and
   maintainable apps. Start with classes for managing your UI component lifecycle and handling data
@@ -89,9 +86,8 @@ Libraries Used
   * [Layout][35] - Lay out widgets using different algorithms.
 * Third party
   * [Glide][90] for image loading
-  * [Kotlin Coroutines][91] for managing background threads with simplified code and reducing needs for callbacks
 
-[0]: https://developer.android.com/jetpack/foundation/
+[0]: https://developer.android.com/jetpack/components
 [1]: https://developer.android.com/topic/libraries/support-library/packages#v7-appcompat
 [2]: https://developer.android.com/kotlin/ktx
 [4]: https://developer.android.com/training/testing/
@@ -103,7 +99,7 @@ Libraries Used
 [16]: https://developer.android.com/topic/libraries/architecture/room
 [17]: https://developer.android.com/topic/libraries/architecture/viewmodel
 [18]: https://developer.android.com/topic/libraries/architecture/workmanager
-[30]: https://developer.android.com/jetpack/ui/
+[30]: https://developer.android.com/guide/topics/ui
 [31]: https://developer.android.com/training/animation/
 [34]: https://developer.android.com/guide/components/fragments
 [35]: https://developer.android.com/guide/topics/ui/declaring-layout
@@ -120,22 +116,8 @@ app? Please open a new [issue](https://github.com/googlesamples/android-sunflowe
 
 Android Studio IDE setup
 ------------------------
-For development, the latest version of Android Studio 3.3 is required. The latest version can be
+For development, the latest version of Android Studio is required. The latest version can be
 downloaded from [here](https://developer.android.com/studio/).
-
-Sunflower uses [ktlint](https://ktlint.github.io/) to enforce Kotlin coding styles.
-Here's how to configure it for use with Android Studio (instructions adapted
-from the ktlint [README](https://github.com/shyiko/ktlint/blob/master/README.md)):
-
-- Close Android Studio if it's open
-
-- Download ktlint using these [installation instructions](https://github.com/shyiko/ktlint/blob/master/README.md#installation)
-
-- Inside the project root directory run:
-
-  `./ktlint --apply-to-idea-project --android`
-
-- Start Android Studio
 
 Additional resources
 --------------------
@@ -159,7 +141,6 @@ injection to better understand Sunflower's code without having to learn DI.
 Support
 -------
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
 - Stack Overflow:
   - http://stackoverflow.com/questions/tagged/android
   - http://stackoverflow.com/questions/tagged/android-jetpack

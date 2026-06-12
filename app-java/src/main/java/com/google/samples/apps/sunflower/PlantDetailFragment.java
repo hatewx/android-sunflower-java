@@ -54,6 +54,7 @@ public class PlantDetailFragment extends Fragment {
         PlantDetailViewModelFactory factory = InjectorUtils.providerPlantDetailViewModelFactory(
                 requireContext(), args.getPlantId());
         PlantDetailViewModel viewModel = ViewModelProviders.of(this, factory).get(PlantDetailViewModel.class);
+        binding.setLifecycleOwner(this);
 
         binding.setViewModel(viewModel);
         binding.fab.setOnClickListener(v -> {

@@ -16,8 +16,6 @@
 
 package com.google.samples.apps.sunflower.data;
 
-import android.util.Log;
-
 import java.util.Calendar;
 import java.util.Objects;
 

@@ -50,7 +50,7 @@ public class PlantRepository {
         return this.plantDao.getPlant(plantId);
     }
 
-    public LiveData<List<Plant>> getPlantsWIthGrowZoneNumber(int growZoneNumber) {
+    public LiveData<List<Plant>> getPlantsWithGrowZoneNumber(int growZoneNumber) {
         return this.plantDao.getPlantsWithGrowZoneNumber(growZoneNumber);
     }
 }

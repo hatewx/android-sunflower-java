@@ -57,7 +57,7 @@ public class GardenPlantingDaoTest {
     public void createDb() {
         Context context = InstrumentationRegistry.getInstrumentation().getContext();
         this.database = Room.inMemoryDatabaseBuilder(context, AppDatabase.class).build();
-        this.gardenPlantingDao = database.getGardenPlatingDao();
+        this.gardenPlantingDao = database.getGardenPlantingDao();
 
         this.database.getPlantDao().insertAll(testPlants);
         this.testGardenPlantingId = this.gardenPlantingDao.insertGardenPlanting(testGardenPlanting);

@@ -22,7 +22,6 @@ import com.google.samples.apps.sunflower.data.AppDatabase;
 import com.google.samples.apps.sunflower.data.GardenPlantingRepository;
 import com.google.samples.apps.sunflower.data.PlantRepository;
 import com.google.samples.apps.sunflower.viewmodels.GardenPlantingListViewModelFactory;
-import com.google.samples.apps.sunflower.viewmodels.PlantDetailViewModel;
 import com.google.samples.apps.sunflower.viewmodels.PlantDetailViewModelFactory;
 import com.google.samples.apps.sunflower.viewmodels.PlantListViewModelFactory;
 
@@ -37,7 +36,7 @@ public class InjectorUtils {
 
     private static GardenPlantingRepository getGardenPlantingRepository(Context context) {
         return GardenPlantingRepository.getInstance(
-                AppDatabase.getInstance(context.getApplicationContext()).getGardenPlatingDao());
+                AppDatabase.getInstance(context.getApplicationContext()).getGardenPlantingDao());
     }
 
     public static GardenPlantingListViewModelFactory provideGardenPlantingListViewModelFactory(Context context) {

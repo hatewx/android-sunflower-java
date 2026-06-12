@@ -47,7 +47,7 @@ public class PlantListViewModel extends ViewModel {
             if (it == NO_GROW_ZONE) {
                 return this.plantRepository.getPlants();
             } else {
-                return this.plantRepository.getPlantsWIthGrowZoneNumber(it);
+                return this.plantRepository.getPlantsWithGrowZoneNumber(it);
             }
         });
     }

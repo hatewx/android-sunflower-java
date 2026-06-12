@@ -36,7 +36,7 @@ import androidx.work.WorkManager;
 @Database(entities = {GardenPlanting.class, Plant.class}, version = 1, exportSchema = false)
 @TypeConverters(Converters.class)
 public abstract class AppDatabase extends RoomDatabase {
-    public abstract GardenPlantingDao getGardenPlatingDao();
+    public abstract GardenPlantingDao getGardenPlantingDao();
     public abstract PlantDao getPlantDao();
 
     private static volatile AppDatabase instance;

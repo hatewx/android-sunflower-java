@@ -80,7 +80,7 @@ Screenshots
 * 三方库
   * [Glide][90] 用于图片加载
 
-[0]: https://developer.android.com/jetpack/foundation/
+[0]: https://developer.android.com/jetpack/components
 [1]: https://developer.android.com/topic/libraries/support-library/packages#v7-appcompat
 [2]: https://developer.android.com/kotlin/ktx
 [4]: https://developer.android.com/training/testing/
@@ -92,7 +92,7 @@ Screenshots
 [16]: https://developer.android.com/topic/libraries/architecture/room
 [17]: https://developer.android.com/topic/libraries/architecture/viewmodel
 [18]: https://developer.android.com/topic/libraries/architecture/workmanager
-[30]: https://developer.android.com/jetpack/ui/
+[30]: https://developer.android.com/guide/topics/ui
 [31]: https://developer.android.com/training/animation/
 [34]: https://developer.android.com/guide/components/fragments
 [35]: https://developer.android.com/guide/topics/ui/declaring-layout
