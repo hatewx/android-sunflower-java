@@ -64,11 +64,9 @@ public class PlantListFragment extends Fragment {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.filter_zone:
-                updateData();
-                return true;
-
+        if (item.getItemId() == R.id.filter_zone) {
+            updateData();
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

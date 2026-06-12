@@ -30,6 +30,8 @@
     <dimen name="margin_small">8dp</dimen>
     <dimen name="margin_extra_small">4dp</dimen>
 
+    <dimen name="padding_large">48dp</dimen>
+
     <dimen name="plant_item_image_height">95dp</dimen>
 
     <dimen name="card_side_margin">12dp</dimen>
@@ -42,6 +44,8 @@
 
     <!-- Plant List Header margin -->
     <dimen name="header_margin">24dp</dimen>
+
+    <dimen name="gallery_header_margin">72dp</dimen>
 
     <!-- minimum height of plant detail page so that the collapsing toolbar can be shown on every page -->
     <dimen name="plant_description_min_height">555dp</dimen>

@@ -78,24 +78,22 @@ public class PlantDetailFragment extends Fragment {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_share:
-                Intent shareIntent = ShareCompat.IntentBuilder.from(Preconditions.checkNotNull(getActivity()))
-                        .setText(this.shareText)
-                        .setType("text/plain")
-                        .createChooserIntent();
-                // https://android-developers.googleblog.com/2012/02/share-with-intents.html
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    // If we're on Lollipop, we can open the intent as a document
-                    shareIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_DOCUMENT | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
-                } else {
-                    // Else, we will use the old CLEAR_WHEN_TASK_RESET flag
-                    shareIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
-                }
-                startActivity(shareIntent);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+        if (item.getItemId() == R.id.action_share) {
+            Intent shareIntent = ShareCompat.IntentBuilder.from(Preconditions.checkNotNull(getActivity()))
+                    .setText(this.shareText)
+                    .setType("text/plain")
+                    .createChooserIntent();
+            // https://android-developers.googleblog.com/2012/02/share-with-intents.html
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                // If we're on Lollipop, we can open the intent as a document
+                shareIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_DOCUMENT | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+            } else {
+                // Else, we will use the old CLEAR_WHEN_TASK_RESET flag
+                shareIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
+            }
+            startActivity(shareIntent);
+            return true;
         }
+        return super.onOptionsItemSelected(item);
     }
 }
