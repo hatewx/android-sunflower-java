@@ -1,6 +1,6 @@
 # Android Sunflower Java
 
-[中文说明](README-cn.md)
+[中文说明](README.zh.md)
 
 This fork tracks [android/sunflower](https://github.com/android/sunflower) and keeps the historical
 Java port in the `app-java` module alongside the upstream Kotlin/Compose `app` module.
